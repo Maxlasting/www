@@ -1,0 +1,12 @@
+{
+  "name": "www",
+  "script": "./index.js",
+  "log_date_format": "YYYY-MM-DD HH:mm Z",
+  "error_file": "log/err.log",
+  "out_file": "log/normal.log",
+  "watch": false,
+  "merge_logs": true,
+  "exec_interpreter": "node",
+  "exec_mode": "fork",
+  "autorestart": false
+}
