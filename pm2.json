@@ -1,6 +1,6 @@
 {
   "name": "www",
-  "script": "./index.js",
+  "script": "index.js",
   "log_date_format": "YYYY-MM-DD HH:mm Z",
   "error_file": "log/err.log",
   "out_file": "log/normal.log",
