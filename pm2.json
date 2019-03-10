@@ -1,13 +1,9 @@
 {
-  "name": "demos",
+  "name": "Fq-work-demos",
   "script": "index.js",
-  "watch": false,
   "exec_mode": "fork",
   "instances": "max",
-  "ignore_watch": [
-    "node_modules"
-  ],
-  "env": {
-    "PORT": 3000
-  }
+  "watch": false,
+  "ignore_watch": ["node_modules"],
+  "env": {"PORT": 8080}
 }
