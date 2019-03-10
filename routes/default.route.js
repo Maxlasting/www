@@ -1,11 +1,9 @@
-const { join } = require('path')
-const send = require('koa-send')
 const { prefix, get } = require('../core/index.js')
 
 @prefix('/')
-class _defaultRouter_ {
+class __decorator_default_router__ {
   @get('*')
-  async _static_ (ctx) {
+  async _route_01_ (ctx) {
     ctx.render('404')
   }
 }
